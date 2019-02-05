@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'pythonport_jobs',
+        'NAME': [DATABASE NAME],
         'USER': 'postgres',
-        'PASSWORD': 'root',
-        'HOST': '167.99.224.228',
+        'PASSWORD': [PASS],
+        'HOST': [IP],
         'PORT': '5432',
     }
 }
